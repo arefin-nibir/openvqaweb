@@ -1,0 +1,40 @@
+# Navigation Links
+#   The weight parameter defines the order that the links will appear in.
+
+main:
+  - name: Home
+    url: /
+    weight: 10
+  - name: Overview
+    url: /overview/
+    weight: 20
+  - name: Sponsor & Roadmap
+    url: community_copy
+    weight: 30
+  - name: Documentation
+    url: docs/
+    weight: 40
+  - name: Publications
+    url: blog/
+    weight: 50
+  - name: Showcase
+    url: showcase/
+    weight: 60
+  - name: Community
+    url: community/
+    weight: 70
+  - name: Donate
+    url: donate/
+    weight: 70
+
+sidebar:
+  - identifier: more
+    name: Still need help?
+    params:
+      type: separator
+    weight: 1
+  - identifier: community
+    name: "Community"
+    pageRef: "/community"
+    weight: 2
+
